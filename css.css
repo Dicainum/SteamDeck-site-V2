@@ -1,0 +1,571 @@
+@font-face {
+  font-family: "Libre Bodoni";
+  src: url("../assets/fonts/LibreBodoni-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  color: #303846;
+  background: white;
+  width: 1500px;
+  font-size: 16px;  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.mainpic {
+float: left;
+margin-left: 100;
+margin-top: -0.5em;
+}
+
+img { 
+float: left;
+margin-left: 100;}
+
+.STEAM {
+  max-width: 100%;
+  margin-left: 3%;
+  float: none;
+}
+
+h2 {
+  padding: 0 15px;
+  font-size: 2em;
+  text-align: left;
+  color: black;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.container {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.column-4 {
+  width: 100%;
+}
+
+.column-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.welcome {
+  position: relative;
+  background: #09125B;
+  box-shadow: 0 -200px 100px -120px #4D5BC6 inset;
+  color: #fff;
+  font-size: 2.5em;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  transition: 5s;
+  width: 100%;
+  margin-bottom: 0;
+  background-position: 0 0;
+  border-radius: 30px;
+  border: 10px solid white;
+  animation: background 4s infinite alternate;
+}
+
+@keyframes background {
+  50% {
+    background: #09125B;
+    box-shadow: 0 -200px 100px -100px #7648C5 inset;
+  }
+}
+
+.welcome img {
+  margin-bottom: 1em;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+span.bold {
+  font-weight: bold;
+  color: #4D5BC6;
+}
+
+.container2 {
+  text-align: left; 
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 100%;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+
+.container2 a {
+  color: #4D5BC6;
+  font-size: 1em;
+  padding-bottom: 1em;
+}
+
+.column-3 {
+  width: 30%;
+  text-align: center; 
+  position: relative;
+  background: white;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  transition: 0.8s;
+  min-height: 200px;
+}
+
+.column-3:hover {
+  top: -10px;
+  left: -5px;
+  color: black;
+  cursor: not-allowed;
+}
+
+.column-3 h3 {
+  font-weight: normal;
+  margin-top: 0;
+  margin-right: 0.2em;
+  font-size: 1.6em;
+}
+
+.ps2 {
+  background: red;
+  float: left;
+  margin: 0 auto;
+  margin-top: 0.5em;
+  margin-left: 1em;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+
+.ps1 {
+  background: #1A288D;
+  float: left;
+  margin: 0 auto;
+  margin-top: 0.72em;
+  margin-left: 0.2em;
+  margin-right: 0.1em;
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.warning {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  line-height: 65px;
+  margin-top: 2.5em;
+  background: black;
+  width: 100%;
+  height: 2.5em;
+}
+
+.container3 {
+  background: black;
+  font-size: 1.5em;
+}
+
+.div1 {
+  background: black;
+  padding-top: 0.1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div2 {
+  width: 40%;
+  background:  linear-gradient(45deg, #09125B, #1A288D 40%, #4D5BC6 90%);
+  color: #fff;
+  font-size: 0.8em;
+  top: 0px;
+  left: 0px;
+  padding: 30px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 10%;
+  font-weight: normal;
+  border: 20px solid black;  border-radius: 10px;
+}
+
+.div2 h3 {
+  font-size: 1.5em;
+  font-weight: strong;
+}
+
+.div3 {
+  width: 40%;
+  background:  linear-gradient(45deg, #26075B, #3E2669 40%, #7648C5 90%);
+  color: #fff;
+  font-size: 0.8em;
+  top: 0px;
+  left: 0px;
+  padding: 30px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-right: 10%;
+  font-weight: normal;
+  border: 20px solid black;  border-radius: 10px;
+}
+
+.div3 h3 {
+  font-size: 1.5em;
+  font-weight: strong;
+}
+
+a {
+  color: white;
+  padding: 0.2em 0.1em 0;
+}
+
+.div31 {
+  padding: 0 10% 6% 10%;
+  color: white;
+}
+
+.div31 h3 {
+  padding-right: 1em;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.big {
+  font-size: 2em;
+}
+
+.div4 {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.div32 {
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
+
+.div32 img{
+  float: left;
+}
+
+.div32 h3 {
+  padding-left: 17em;
+  font-size: 1em;
+}
+
+.btn2 {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 3%;
+  margin-bottom: -3%;
+  font-size: 0.5em;
+}
+
+.big2 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.OLED {
+  padding: 3em 0;
+  margin-top: -1.2em;
+  color: white;
+  background: linear-gradient(#4D5BC6, #09125B);
+}
+
+.OLED h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.fOLED {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.h21 {
+  color: white;
+  font-size: 2em;
+}
+
+.h21p {
+  width: 50%;
+  color: white;
+  font-size: 1.2em;
+  padding-left: -5%;
+  padding-top: 2%;
+}
+
+.h22 {
+  color: white;
+  font-size: 2em;
+  width: 20%;
+}
+
+.h22p {
+  width: 50%;
+  color: white;
+  font-size: 1.2em;
+  padding-right: 2%;
+  padding-top: 2%;
+}
+
+.h23 {
+  color: white;
+  font-size: 2em;
+  width: 20%;
+}
+
+.h23p {
+  width: 50%;
+  color: white;
+  font-size: 1.2em;
+  padding-left: 9%;
+  margin-top: 2em;
+  margin-right: 5em;
+  padding-bottom: 3em;
+}
+
+.himg {
+  margin-top: -22em;
+  margin-left: 50em;
+}
+
+.OLED video {
+  margin-left: 3%;
+}
+
+.column-1 {
+  color: white;
+  margin: 0 4%;
+  width: 25%;
+  height: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.column-1 h3 {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-left: 1em;
+}
+
+.column-1 p {
+  font-size: 0.9em;
+}
+
+.column-1 img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 250px;
+}
+
+.div4 h3 {
+  margin-left: 25em;
+  font-size: 2em;
+}
+
+.div4 img {
+  margin-left: 5em;
+  border: 20px solid black;  border-radius: 10px;
+}
+
+.div4 p {
+  margin-top: -0.5%;
+  margin-bottom: 10%;
+  font-size: 0.7em;
+  font-weight: normal;
+}
+
+.columndiv {
+  margin-top: 5em;
+  width: 100%;
+  height: 300hv;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.column-2 {
+  margin: 0 3%;
+  margin-bottom: 4em;
+  width: 30%;
+  text-align: center; 
+  position: relative;
+  background: white;
+}
+
+.column-2 h3 {
+font-size: 2em;
+}
+
+.column-2 p {
+font-size: 1em;
+}
+
+.column-2 video {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 250px;
+}
+
+form {
+  margin: 0 auto;
+  border: 0;
+  font-size: 1.2em;
+  line-height: 4;
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 35px;
+  background-color: #4D5BC6;
+  margin-bottom: 2em;
+}
+
+button {
+  margin: 0 auto;
+  border: 0;
+  font-size: 1.2em;
+  line-height: 4;
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+  background-color: #4D5BC6;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+}
+
+.game {
+  margin-top: 1em;
+  margin-bottom: -1em;
+}
+
+.game1 {
+  margin-bottom: -1em;
+}
+
+.div5 {
+  background: black;
+  color: white;
+  padding: 2em 7em 2em 7em;
+}
+
+.div5 h3 {
+  font-size: 2.2em;
+  
+}
+
+.div5 h2 {
+  color: white;
+  font-size: 1.5em;
+  padding-bottom: 0.7em;
+  padding-top: 0.5em;
+}
+
+.div5 h1 {
+  color: #606060;
+  font-size: 1.5em;
+  padding-left: 1em;
+  float: left;
+  padding-top: 0.3em;
+}
+
+.div5 p {
+  color: white;
+  font-size: 1.5em;
+  margin-left: 20em;
+}
+
+.div6 {
+  color: black;
+  padding: 2em 7em 2em 7em;
+}
+
+.div6 h3 {
+  color: #09125B;
+  font-size: 2em;
+}
+
+.div6 h2 {
+  color: #09125B;
+  font-size: 1.5em;
+  padding-bottom: 0.3em;
+  padding-top: 0.8em;
+}
+
+.div6 h1 {
+  color: #4D5BC6;
+  font-size: 1.5em;
+  padding-left: 1em;
+  float: left;
+  padding-top: 0.3em;
+}
+
+.div6 p {
+  color: #09125B;
+  font-size: 1.5em;
+  margin-left: 20em;
+}
+
+.p1 {
+  line-height: 25px;
+}
+
+
+footer {
+  clear: both;
+  height: 100px;
+
+  color: white;
+  text-align: center;
+
+  background: #040204;
+}
+
+footer h3 {
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-right: 7em;
+}
+
+.valve {
+  margin-right: 2em;
+  margin-top: 1.8em;
+  float: right;
+}
+
+.line {
+    border-bottom: 0.5px solid white;
+}
+
+.line2 {
+    border-bottom: 0.5px solid black;
+}
+.line2 {
+    border-bottom: 0.5px solid black;
+}
