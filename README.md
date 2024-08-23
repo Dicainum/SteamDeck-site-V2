@@ -1,5 +1,5 @@
 # SteamDeck-site-V2
-New version of SteamDeck website // новая версия сайта "SteamDeck".
+A new version of my project // новая версия моего проекта.
 
 # Project "SteamDeck" // Проект "SteamDeck":
 
