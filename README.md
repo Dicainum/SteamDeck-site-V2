@@ -13,3 +13,6 @@ Now support any monitor resolution // теперь поддерживает лю
 ```
 Fixed the unsightly position of some images // исправлено неэстетичное положение некоторых изображений.
 ```
+```
+Added English localization in the README // добавлена английская локализация в README.
+```
